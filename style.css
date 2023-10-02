@@ -35,3 +35,22 @@ li{
 p{
     margin:0;
 }
+.main-modal{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.inner-modal{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(79, 67, 52);
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
+.close{
+    text-align: end;
+}
